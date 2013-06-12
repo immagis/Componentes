@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="7"/>
+    <General>
+      <Flags>
+        <SaveOnlyProjectUnits Value="True"/>
+        <AlwaysBuild Value="False"/>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=".exe"/>
+      <ResourceType Value="res"/>
+    </General>
+    <VersionInfo>
+      <StringTable Comments="" CompanyName="" FileDescription="" FileVersion="0.0.0.0" InternalName="" LegalCopyright="" LegalTrademarks="" OriginalFilename="" ProductName="" ProductVersion=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="PressLazReportRT"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="PressLazSQLdbRT"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="16">
+      <Unit0>
+        <Filename Value="PhoneBook.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PhoneBook"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\Units\lclvcl\MainFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainFrm"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\Units\lclvcl\CustomEditFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CustomEditForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="CustomEditFrm"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\Units\lclvcl\ContactEditFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ContactEditForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ContactEditFrm"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\Units\lclvcl\CompanyEditFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CompanyEditForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="CompanyEditFrm"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\Units\lclvcl\PersonEditFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="PersonEditForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="PersonEditFrm"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\Units\lclvcl\CityEditFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CityEditForm"/>
+        <HasResources Value="True"/>
+        <UnitName Value="CityEditFrm"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\Units\lclvcl\PhoneEditFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="PhoneEditForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="PhoneEditFrm"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\Units\lclvcl\ReportItemEditFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ReportItemEditForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ReportItemEditFrm"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\Units\lclvcl\ReportGroupEditFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ReportGroupEditForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ReportGroupEditFrm"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\Units\ReportMVP.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ReportMVP"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\Units\Brokers.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Brokers"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\Units\ContactBO.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ContactBO"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\Units\ContactMVP.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ContactMVP"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\Units\CustomMVP.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CustomMVP"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\Units\MainMVP.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MainMVP"/>
+      </Unit15>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="PhoneBook"/>
+    </Target>
+    <SearchPaths>
+      <OtherUnitFiles Value="..\..\Units\;..\..\Units\lclvcl\"/>
+      <UnitOutputDirectory Value="..\..\..\..\bin\Laz\Demos\PhoneBook\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <UseHeaptrc Value="True"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+</CONFIG>

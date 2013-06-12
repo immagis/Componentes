@@ -1,0 +1,143 @@
+inherited ContactEditForm: TContactEditForm
+  Left = 241
+  Height = 307
+  Top = 175
+  Width = 452
+  Caption = 'ContactEditForm'
+  ClientHeight = 307
+  ClientWidth = 452
+  inherited ClientPanel: TPanel
+    Height = 266
+    Width = 452
+    ClientHeight = 266
+    ClientWidth = 452
+    inherited LinePanel: TPanel
+      Top = 264
+      Width = 452
+    end
+    object NameLabel: TLabel[1]
+      Left = 16
+      Height = 14
+      Top = 8
+      Width = 32
+      Caption = 'Name:'
+      FocusControl = NameEdit
+      ParentColor = False
+    end
+    object StreetLabel: TLabel[2]
+      Left = 16
+      Height = 14
+      Top = 48
+      Width = 32
+      Caption = 'Street:'
+      FocusControl = StreetEdit
+      ParentColor = False
+    end
+    object ZipLabel: TLabel[3]
+      Left = 16
+      Height = 14
+      Top = 88
+      Width = 19
+      Caption = 'Zip:'
+      FocusControl = ZipEdit
+      ParentColor = False
+    end
+    object CityLabel: TLabel[4]
+      Left = 88
+      Height = 14
+      Top = 88
+      Width = 21
+      Caption = 'City:'
+      FocusControl = CityComboBox
+      ParentColor = False
+    end
+    object NameEdit: TEdit[5]
+      Left = 16
+      Height = 21
+      Top = 24
+      Width = 217
+      TabOrder = 1
+    end
+    object StreetEdit: TEdit[6]
+      Left = 16
+      Height = 21
+      Top = 64
+      Width = 217
+      TabOrder = 2
+    end
+    object ZipEdit: TEdit[7]
+      Left = 16
+      Height = 21
+      Top = 104
+      Width = 65
+      TabOrder = 3
+    end
+    object CityComboBox: TComboBox[8]
+      Left = 88
+      Height = 21
+      Top = 104
+      Width = 145
+      ItemHeight = 13
+      TabOrder = 4
+    end
+    object PhonesGroupBox: TGroupBox[9]
+      Left = 248
+      Height = 225
+      Top = 16
+      Width = 185
+      Caption = 'Phones'
+      ClientHeight = 207
+      ClientWidth = 181
+      TabOrder = 5
+      object NumberLabel: TLabel
+        Left = 16
+        Height = 14
+        Top = 160
+        Width = 41
+        Caption = 'Number:'
+        FocusControl = NumberEdit
+        ParentColor = False
+      end
+      object PhoneTypeLabel: TLabel
+        Left = 16
+        Height = 14
+        Top = 120
+        Width = 59
+        Caption = 'PhoneType:'
+        FocusControl = PhoneTypeComboBox
+        ParentColor = False
+      end
+      object PhonesStringGrid: TStringGrid
+        Left = 16
+        Height = 105
+        Top = 8
+        Width = 153
+        DefaultColWidth = 32
+        DefaultRowHeight = 16
+        TabOrder = 0
+        TitleFont.Height = -11
+        TitleFont.Name = 'MS Sans Serif'
+      end
+      object NumberEdit: TEdit
+        Left = 16
+        Height = 21
+        Top = 176
+        Width = 121
+        TabOrder = 1
+      end
+      object PhoneTypeComboBox: TComboBox
+        Left = 16
+        Height = 21
+        Top = 136
+        Width = 121
+        ItemHeight = 13
+        TabOrder = 2
+      end
+    end
+  end
+  inherited BottomPanel: TPanel
+    Top = 266
+    Width = 452
+    ClientWidth = 452
+  end
+end
